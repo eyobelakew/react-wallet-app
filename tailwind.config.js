@@ -7,12 +7,12 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          "-apple-system",
-          "BlinkMacSystemFont",
-          '"Helvetica Neue"',
-          "Helvetica",
-          "Arial",
-          "sans-serif",
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Inter',
+          'Helvetica Neue',
+          'Arial',
+          'sans-serif',
         ],
       },
     },

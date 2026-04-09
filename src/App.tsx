@@ -13,7 +13,7 @@ function App(): JSX.Element {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const selected = allTransactions.find((t) => t.id === selectedId) ?? null
   return (
-    <div className="max-w-[390px] mx-auto min-h-screen bg-[#f2f2f7] overflow-x-hidden">
+    <div className="w-full min-h-screen bg-[#f2f2f7] overflow-x-hidden">
       {screen === 'list' && (
         <TransactionsList
           onSelect={(id) => {

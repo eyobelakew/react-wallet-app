@@ -24,7 +24,7 @@ function money(n: number): string {
 
 export function TransactionDetail({ transaction: t, onBack }: TransactionDetailProps): JSX.Element {
   return (
-    <div className="max-w-[390px] mx-auto min-h-screen bg-[#f2f2f7]">
+    <div className="w-full min-h-screen bg-[#f2f2f7]">
       <div className="h-11 pl-4 flex items-center">
         <button
           type="button"
