@@ -1,0 +1,114 @@
+[
+  {
+    "id": "txn-001",
+    "type": "Credit",
+    "amount": 89.5,
+    "name": "Apple",
+    "description": "Card Number Used",
+    "date": "2026-04-09T14:47:00",
+    "pending": true,
+    "authorizedUser": "Diana",
+    "cashbackPercent": 2,
+    "cardUsed": "Card Number Used"
+  },
+  {
+    "id": "txn-002",
+    "type": "Payment",
+    "amount": 125,
+    "name": "JPMorgan Chase",
+    "description": "Top-up from JPMorgan Chase Bank National Association",
+    "date": "2026-04-08T10:15:00",
+    "pending": false,
+    "cashbackPercent": 1,
+    "cardUsed": "RBC Bank Debit Card"
+  },
+  {
+    "id": "txn-003",
+    "type": "Credit",
+    "amount": 42.99,
+    "name": "Apple",
+    "description": "Card Number Used",
+    "date": "2026-04-07T09:30:00",
+    "pending": false,
+    "authorizedUser": "Diana",
+    "cashbackPercent": 3,
+    "cardUsed": "Card Number Used"
+  },
+  {
+    "id": "txn-004",
+    "type": "Payment",
+    "amount": 75,
+    "name": "JPMorgan Chase",
+    "description": "Top-up from JPMorgan Chase Bank National Association",
+    "date": "2026-04-05T16:22:00",
+    "pending": false,
+    "cashbackPercent": 2,
+    "cardUsed": "RBC Bank Debit Card"
+  },
+  {
+    "id": "txn-005",
+    "type": "Payment",
+    "amount": 200,
+    "name": "JPMorgan Chase",
+    "description": "Top-up from JPMorgan Chase Bank National Association",
+    "date": "2026-04-04T11:00:00",
+    "pending": false,
+    "cashbackPercent": 4,
+    "cardUsed": "RBC Bank Debit Card"
+  },
+  {
+    "id": "txn-006",
+    "type": "Credit",
+    "amount": 156.73,
+    "name": "IKEA",
+    "description": "Furniture pickup — BILLY bookcase and MALM nightstand",
+    "date": "2025-11-18T13:20:00",
+    "pending": false,
+    "cashbackPercent": 5,
+    "cardUsed": "Card Number Used"
+  },
+  {
+    "id": "txn-007",
+    "type": "Credit",
+    "amount": 38.12,
+    "name": "Target",
+    "description": "Grocery run — household essentials and snacks",
+    "date": "2025-10-03T18:45:00",
+    "pending": false,
+    "cashbackPercent": 2,
+    "cardUsed": "Card Number Used"
+  },
+  {
+    "id": "txn-008",
+    "type": "Payment",
+    "amount": 50,
+    "name": "JPMorgan Chase",
+    "description": "Top-up from JPMorgan Chase Bank National Association",
+    "date": "2025-09-12T08:00:00",
+    "pending": false,
+    "cashbackPercent": 1,
+    "cardUsed": "RBC Bank Debit Card"
+  },
+  {
+    "id": "txn-009",
+    "type": "Credit",
+    "amount": 12.49,
+    "name": "Starbucks",
+    "description": "Card Number Used",
+    "date": "2025-08-22T07:55:00",
+    "pending": false,
+    "cashbackPercent": 3,
+    "cardUsed": "Card Number Used"
+  },
+  {
+    "id": "txn-010",
+    "type": "Credit",
+    "amount": 67,
+    "name": "Whole Foods",
+    "description": "Card Number Used",
+    "date": "2025-07-14T19:10:00",
+    "pending": false,
+    "cashbackPercent": 4,
+    "cardUsed": "Card Number Used"
+  }
+]
