@@ -19,29 +19,34 @@ function formatDetailDateTime(dateStr: string): string {
 }
 
 function money(n: number): string {
-  return `$${n.toFixed(2)}`
+  return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
 }
 
 export function TransactionDetail({ transaction: t, onBack }: TransactionDetailProps): JSX.Element {
   return (
-    <div>
-      <div className="detail-header">
-        <button type="button" className="detail-back" onClick={onBack} aria-label="Back">
+    <div className="max-w-[390px] mx-auto min-h-screen bg-[#f2f2f7]">
+      <div className="h-11 pl-4 flex items-center">
+        <button
+          type="button"
+          className="bg-transparent border-0 p-0 cursor-pointer text-[#007aff] text-xl flex items-center"
+          onClick={onBack}
+          aria-label="Back"
+        >
           <FontAwesomeIcon icon={faChevronLeft} />
         </button>
       </div>
-      <div className="detail-body">
-        <div className="detail-amount">{money(t.amount)}</div>
-        <div className="detail-name">{t.name}</div>
-        <div className="detail-when">{formatDetailDateTime(t.date)}</div>
+      <div className="text-center pt-8 px-4">
+        <div className="text-[48px] font-bold text-black leading-none tracking-tight">{`$${money(t.amount)}`}</div>
+        <div className="text-[14px] text-[#8e8e93] font-normal mt-2">{t.name}</div>
+        <div className="text-[14px] text-[#8e8e93] font-normal mt-0.5">{formatDetailDateTime(t.date)}</div>
       </div>
-      <div className="card detail-card">
-        <div className="detail-status">Status: Approved</div>
-        <div className="detail-card-line">{t.cardUsed}</div>
-        <div className="detail-divider" />
-        <div className="detail-total-row">
+      <div className="mt-8 mx-4 bg-white rounded-xl p-4">
+        <span className="block text-sm font-bold text-black">Status: Approved</span>
+        <span className="block text-[13px] text-[#8e8e93] font-normal mt-[3px]">{t.cardUsed}</span>
+        <div className="h-px bg-[#e5e5ea] my-3 w-full" />
+        <div className="flex justify-between text-sm text-black font-normal">
           <span>Total</span>
-          <span>{money(t.amount)}</span>
+          <span>{`$${money(t.amount)}`}</span>
         </div>
       </div>
     </div>
