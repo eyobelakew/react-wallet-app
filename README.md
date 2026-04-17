@@ -55,7 +55,3 @@ src/
 ```
 
 Root config: `vite.config.ts`, `tailwind.config.js`, `postcss.config.js`, `tsconfig.json`, `index.html`.
-
-## Screenshots
-
-_Add list and detail captures here (e.g. `docs/screenshots/list.png`, `docs/screenshots/detail.png`)._
